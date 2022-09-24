@@ -4,9 +4,7 @@ import numpy as np
 import tensorflow as tf
 app = Flask(__name__)
 
-class Cars:
-  def __init__(self, m):
-    self.model = m
+
 
 @app.route('/')
 def hello_world():  # put application's code here
