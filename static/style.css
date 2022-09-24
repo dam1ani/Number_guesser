@@ -30,7 +30,7 @@ body{
 
 .navbar, .container{
     background-color: rgb(28, 28, 29);
-    width: 800px;
+    /* width: 800px; */
     border-radius: 3px;
 }
 .navbar{
@@ -61,4 +61,10 @@ body{
 }
 .pixel{
     background-color: rgb(0, 0, 0);
+}
+
+.main-title{
+    text-align: center;
+    color: chocolate;
+    padding-bottom: 10px;
 }
